@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .container1{
 display: flex;
@@ -11,7 +12,7 @@ margin: 100px;
 }
 h1{
    font-size: 50px;
-    font-weight: bold;
+   font-weight: bold;
 }
 h3{
     font-size: 30px;
@@ -21,8 +22,9 @@ h3{
     padding-left: 20px;
 }
 .mission-image{
-    width: 400px;
+    width: 420px;
     height: 400px;
+    background-image: url(images/shapes/shape-4.png);
     
 }
 .button{
@@ -48,21 +50,21 @@ color: orange;
     height: 141px;
     margin: 0px;
 }
-.part1{
+#part1{
     border-radius: 25px;
     margin: 0px 50px;
     background-color: #4F9DA61A;
     padding: 15px 30px;
     text-align: justify;
 }
-.part2{
+#part2{
     border-radius: 25px;
     margin: 0px 50px;
     background-color: #FF59591A;
     padding: 15px 30px;
     text-align: justify;
 }
-.part3{
+#part3{
     border-radius: 25px;
     margin: 0px 50px;
     background-color: #FFF4D6;  
@@ -72,4 +74,18 @@ color: orange;
 .container3{
     display: flex;
     margin: 100px;
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+}
+.container4{
+    display: flex;
+    margin: 100px;
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: blanchedalmond;
+    background-color: black;
 }
